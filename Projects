@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Projects – Our Manor House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Our Projects</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project One: The Entrance Hall</h2>
+      <p>A full restoration of period panelling and flooring — complete with vintage fixtures.</p>
+    </section>
+    <section>
+      <h2>Project Two: Kitchen Revival</h2>
+      <p>Modern functionality meets heritage charm, featuring bespoke cabinetry and traditional tiling.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Our Manor House</p>
+  </footer>
+</body>
+</html>
