@@ -53,3 +53,18 @@ footer {
   text-align: center;
   font-size: 0.9rem;
 }
+
+.contact {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 0.5rem;
+}
