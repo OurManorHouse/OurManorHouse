@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+  font-family: Georgia, serif;
+  color: #333;
+  background-color: #f4f2ee;
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #5a4631;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background: #e8e3d8;
+  padding: 2rem;
+  text-align: center;
+}
+.site-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: inline-flex;
+}
+.site-header nav li {
+  margin: 0 1rem;
+}
+.site-header nav a {
+  font-weight: bold;
+}
+.site-header nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #5a4631;
+}
+
+footer {
+  background: #e8e3d8;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
