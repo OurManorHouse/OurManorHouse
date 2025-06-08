@@ -1,55 +1,55 @@
-/* Global Styles */
 body {
-  font-family: Georgia, serif;
+  font-family: 'Inter', sans-serif;
   color: #333;
-  background-color: #f4f2ee;
-  margin: 0;
   line-height: 1.6;
+  font-weight: 400;
+  background: #fff;
+  margin: 0; padding: 0;
 }
 
-a {
-  color: #5a4631;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #222;
+  margin: 1.5rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+nav ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  color: #666;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-.site-header {
-  background: #e8e3d8;
-  padding: 2rem;
-  text-align: center;
-}
-.site-header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1rem;
-  display: inline-flex;
-}
-.site-header nav li {
-  margin: 0 1rem;
-}
-.site-header nav a {
-  font-weight: bold;
-}
-.site-header nav a.active {
-  text-decoration: underline;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
 }
 
-main {
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-h1, h2 {
-  font-family: "Times New Roman", Times, serif;
-  color: #5a4631;
+nav ul li a:hover {
+  color: #000;
 }
 
 footer {
-  background: #e8e3d8;
-  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 2rem 0;
   text-align: center;
-  font-size: 0.9rem;
 }
