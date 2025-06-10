@@ -118,7 +118,8 @@ footer {
 /* Logo */
 .logo {
   display: block;
-  margin: 1rem auto;
-  max-width: 150px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
