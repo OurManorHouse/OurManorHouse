@@ -119,7 +119,7 @@ footer {
 .logo {
   display: block;
   width: 100%;
-  max-width: 100%;
+  max-width: 800px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
 }
