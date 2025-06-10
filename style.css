@@ -1,68 +1,114 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Lora:wght@400;600&display=swap');
+
 /* Global Styles */
 body {
-  font-family: Georgia, serif;
+  font-family: 'Lora', serif;
   color: #333;
   background-color: #f4f2ee;
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-weight: 400;
+  padding: 0;
 }
 
 a {
   color: #5a4631;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
+/* Header */
 .site-header {
   background: #e8e3d8;
   padding: 2rem;
   text-align: center;
 }
+
 .site-header nav ul {
   list-style: none;
   padding: 0;
   margin: 0 0 1rem;
   display: inline-flex;
 }
+
 .site-header nav li {
   margin: 0 1rem;
 }
+
 .site-header nav a {
-  font-weight: bold;
+  font-weight: 600;
 }
+
 .site-header nav a.active {
   text-decoration: underline;
 }
 
+/* Main Layout */
 main {
   padding: 2rem 1rem;
   max-width: 800px;
   margin: auto;
 }
 
-h1, h2 {
-  font-family: "Times New Roman", Times, serif;
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
   color: #5a4631;
+  margin-bottom: 0.5rem;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+/* Footer */
 footer {
   background: #e8e3d8;
   padding: 1rem;
   text-align: center;
   font-size: 0.9rem;
+  font-family: 'Lora', serif;
+  color: #555;
 }
 
+/* Contact Section */
 .contact {
   margin-top: 3rem;
   padding-top: 2rem;
   border-top: 1px solid #ccc;
 }
 
+.contact h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
 .contact ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .contact li {
