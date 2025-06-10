@@ -114,3 +114,11 @@ footer {
 .contact li {
   margin-bottom: 0.5rem;
 }
+
+/* Logo */
+.logo {
+  display: block;
+  margin: 1rem auto;
+  max-width: 150px;
+  height: auto;
+}
