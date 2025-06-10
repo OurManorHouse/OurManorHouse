@@ -46,6 +46,15 @@ a:hover {
 .site-header nav a.active {
   text-decoration: underline;
 }
+.site-header nav {
+  margin-bottom: 20px; /* space below nav on all screen sizes */
+}
+
+@media (min-width: 768px) {
+  .site-header nav {
+    margin-bottom: 30px; /* more space on larger screens */
+  }
+}
 
 /* Main Layout */
 main {
