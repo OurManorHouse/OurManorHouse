@@ -60,6 +60,9 @@ main section {
   margin-bottom: 2rem;
 }
 
+main section:last-child {
+  border-bottom: none; /* Remove border on the last one */
+}
 
 /* Headings */
 h1, h2, h3 {
