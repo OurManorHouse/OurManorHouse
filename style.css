@@ -123,3 +123,9 @@ footer {
   height: auto;
   margin: 0 auto 1rem auto;
 }
+
+@media (min-width: 768px) {
+  .logo {
+    max-width: 600px;
+  }
+}
